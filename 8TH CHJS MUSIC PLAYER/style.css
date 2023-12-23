@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Pacifico&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   font-family: 'Covered By Your Grace', cursive;
+}
+nav ul {
+    display: flex;
+    list-style-type: none ;
+    background-color:black;
+    align-items: center;
+    height: 70px;
+    color:white;
+}
+nav ul li{
+    padding:15px;
+     
+}
+.brand
+{
+    font-weight: bold;
+}
+.brand img {
+    width: 45px;
+    padding: 0 5px;
+}
+.container
+{
+    min-height: 75vh;
+    width: 100vw;
+    background-color: black;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url('./images/bg.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+}
+.icons{
+    margin-top: 25px;
+}
+.icons i{
+   cursor: pointer;
+}
+#progressbar{
+    width: 100vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+ margin-top: 20px;   
+}
+.songitem{
+height:40px;
+display: flex;
+background-color: white;
+color: black;
+width:80%;
+margin: 10px 10px;
+justify-content: space-between;
+align-items: center; 
+border-radius: 15px;
+
+
+}
+.songitem img {
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 8px;
+    
+}
+.timestamp{
+     margin: 0px 20px; 
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+position: absolute;
+left: 0.5vw;
+}
+.songinfo img{
+   opacity: 0;
+   transition: opacity 0.8s ease-in;
+    width: 90px;
+}
+
